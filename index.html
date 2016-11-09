@@ -9,25 +9,28 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Ejercicio Trello</title>
   </head>
+  
   <body>
      <header class="container-fluid">
-       <div class="row">
-         <div class="col-xs-12 col-md-12 header">
-            <img src="img/trello-logo-white.png" class="logo img-responsive center-block">
-         </div>
-       </div>
-     </header>
-      <section class="container background">
         <div class="row">
-          <div class="content col-xs-2 col-md-2">
-            <form>
-              <span onclick ="anadirTareas()"><span class="btn btn-primary pull-right boton">Añadir una lista</span></span>
-            </form>  
-          </div>
-          <div id="agregarLista">
-          </div>
+           <div class="col-xs-12 col-md-12 header">
+              <img src="img/trello-logo-white.png" class="logo img-responsive center-block">
+           </div>
         </div>
-      </section>
+     </header>
+
+     <section class="container">
+        <div class="row">
+            <div class="content">
+               <p>
+                  <span onclick ="anadirTareas()"><button class="pull-right boton">Añadir una lista</button></span>
+               </p>
+            </div>
+
+               <div id="agregarLista" class="alinear">
+               </div>
+        </div>
+      </section>    
     
 
     
